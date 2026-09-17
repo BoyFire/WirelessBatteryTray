@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WirelessBatteryTray.App/WirelessBatteryTray.App.csproj" />
+    <Project Path="src/WirelessBattery.Core/WirelessBattery.Core.csproj" />
+    <Project Path="src/WirelessBattery.Hid/WirelessBattery.Hid.csproj" />
+    <Project Path="src/WirelessBattery.Provider.Logitech/WirelessBattery.Provider.Logitech.csproj" />
+    <Project Path="src/WirelessBattery.Provider.Vgn/WirelessBattery.Provider.Vgn.csproj" />
+  </Folder>
+  <Folder Name="/tools/">
+    <Project Path="tools/HidDump/HidDump.csproj" />
+    <Project Path="tools/MXVerticalBatteryProbe/MXVerticalBatteryProbe.csproj" />
+    <Project Path="tools/S99BatteryProbe/S99BatteryProbe.csproj" />
+    <Project Path="tools/WirelessBatteryProbe/WirelessBatteryProbe.csproj" />
+  </Folder>
+</Solution>

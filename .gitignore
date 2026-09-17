@@ -1,0 +1,10 @@
+.dotnet/
+.nuget/
+NuGet/
+**/bin/
+**/obj/
+*.user
+artifacts/
+cert/
+*.log
+.github_known_hosts

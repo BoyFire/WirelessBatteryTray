@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\WirelessBattery.Core\WirelessBattery.Core.csproj" />
+    <ProjectReference Include="..\..\src\WirelessBattery.Hid\WirelessBattery.Hid.csproj" />
+    <ProjectReference Include="..\..\src\WirelessBattery.Provider.Vgn\WirelessBattery.Provider.Vgn.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

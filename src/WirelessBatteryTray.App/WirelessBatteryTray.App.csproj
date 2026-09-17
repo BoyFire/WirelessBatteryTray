@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>WirelessBatteryTray</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WirelessBattery.Core\WirelessBattery.Core.csproj" />
+    <ProjectReference Include="..\WirelessBattery.Hid\WirelessBattery.Hid.csproj" />
+    <ProjectReference Include="..\WirelessBattery.Provider.Vgn\WirelessBattery.Provider.Vgn.csproj" />
+    <ProjectReference Include="..\WirelessBattery.Provider.Logitech\WirelessBattery.Provider.Logitech.csproj" />
+  </ItemGroup>
+</Project>
